@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lists.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lists"
+        mc:Ignorable="d"
+        Title="Список" Height="142" Width="620" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Center" Height="60" Margin="0,10,0,0" VerticalAlignment="Top" Width="600" Background="#FF73E073"/>
+        <Button Content="Создать список" HorizontalAlignment="Left" Margin="6,75,0,0" VerticalAlignment="Top" Width="162" Click="cmCreate"/>
+        <Button Content="Удалить один шар" HorizontalAlignment="Left" Margin="173,75,0,0" VerticalAlignment="Top" Width="177" Click="cmDelete"/>
+
+    </Grid>
+</Window>
